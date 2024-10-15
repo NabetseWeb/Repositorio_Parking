@@ -1,0 +1,88 @@
+/* Contenedor principal */
+.empresas-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #1e1e1e; /* Negro oscuro */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra más fuerte */
+}
+
+/* Título */
+.title {
+  font-size: 2.5rem;
+  color: #00aaff; /* Azul brillante */
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Tabla */
+.empresas-table {
+  width: 100%;
+  max-width: 900px;
+  border-collapse: collapse;
+  background-color: #2b2b2b; /* Negro ligeramente más claro */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Encabezado de la tabla */
+.empresas-table thead {
+  background-color: #007bff; /* Azul oscuro */
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Celdas de la tabla */
+.empresas-table th,
+.empresas-table td {
+  padding: 15px 20px;
+  text-align: center;
+  border-bottom: 1px solid #444; /* Separadores oscuros */
+}
+
+.empresas-table tbody tr:nth-child(even) {
+  background-color: #333; /* Fondo negro para filas pares */
+}
+
+/* Texto de las celdas */
+.empresas-table td {
+  color: #ddd; /* Gris claro */
+  font-size: 1.1rem;
+}
+
+.empresas-table th {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* Texto de carga */
+.loading-text {
+  font-size: 1.4rem;
+  color: #00aaff; /* Azul brillante */
+}
+
+/* Botón */
+.back-button {
+  margin-top: 25px;
+  background-color: #007bff; /* Azul oscuro */
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: #0056b3; /* Azul aún más oscuro */
+  transform: scale(1.05);
+}
